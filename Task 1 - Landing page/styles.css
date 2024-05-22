@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://wallpapers.com/images/featured/best-travel-background-04ml2h9wywaoo6ei.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+
+}
+.text .image{
+    background-image: url(https://wallpapers.com/images/hd/travel-hd-4zjwrepl0mzn70nd.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+
+}
+.right .image{
+    background-image: url(https://static.toiimg.com/photo/65104932.cms);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.middle .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+
+}
+.middle .middle .image{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/roadtrip-1583526313.jpg?crop=0.669xw:1.00xh;0.107xw,0&resize=1200:*);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.middle .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+
+}
+.left .image{
+    background-image: url(https://cambelt.com/wp-content/uploads/2021/12/CambeltInternationalCorporation-95621-railroad-transportation-road-blogbanner1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+
+
+@media(max-width:700px){
+   .top{
+    min-height: 80vh;
+   }
+   .top .overlay .text{
+    flex-direction: column;
+    padding-top: 30px;
+   }
+   .middle{
+    flex-direction: column;
+   }
+    
+}
+@media (max-width:500px) {
+    .top{
+        min-height: 80vh;
+       }
+    .top .overlay .text{
+        flex-direction: column;
+        padding-top: 30px;
+       }
+       .middle{
+        flex-direction: column;
+       }
+    
+}
